@@ -10,7 +10,7 @@ root.title('B3nam_Tools')
 root.geometry("500x200")
 a = requests.get('https://api64.ipify.org/')
 def IP():
-   messagebox.showinfo("My IP ", a.text)
+   messagebox.showinfo("Your Public IP ", a.text)
 def cryption():
    tf = filedialog.askopenfilename(
         title="Open Text file", 
